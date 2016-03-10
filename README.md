@@ -4,7 +4,7 @@ A lightweight, simple, fast, and cross-platform double precision C++11 routine t
 
 ## Latest Builds
 
-[![Build Status](https://travis-ci.org/larzw/GaussLegendreQuadrature.svg?branch=master)](https://travis-ci.org/larzw/GaussLegendreQuadrature) <sup>**Travis CI: Linux (gcc) and OS X (clang)**<sup>
+[![Build Status](https://travis-ci.org/larzw/GaussLegendreRule.svg?branch=master)](https://travis-ci.org/larzw/GaussLegendreRule) <sup>**Travis CI: Linux (gcc) and OS X (clang)**<sup>
 
 [![Build status](https://ci.appveyor.com/api/projects/status/6f6xo4psk3m9yraf/branch/master?svg=true)](https://ci.appveyor.com/project/larzw/gausslegendrerule/branch/master) <sup>**AppVeyor: Windows (VS2015)**</sup>  
 
