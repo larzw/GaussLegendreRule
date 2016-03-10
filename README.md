@@ -13,13 +13,13 @@ A lightweight, simple, fast, and cross-platform double precision C++11 routine t
 * [CMake](https://cmake.org/) is used for the builds.
 * [Doxygen](http://www.stack.nl/~dimitri/doxygen/) is used to create documentation.
 
-If your intentions are to simple use the code, the above dependencies don't apply. You only need GassLegendreRule.cpp and the corresponding header file.
+If your intentions are to simply use the code, the above dependencies don't apply. You only need GassLegendreRule.cpp and the corresponding header file.
 
 # Documentation
 The API reference can be found in the folder **doc/latex/refman.pdf**
 
 ## Algorithm
-Newton's method is used to compute the abscissas, which are the roots of an N<sup>th</sup> order Legendre polynomial. Although alternative methods exits, direct root finding is typically faster by a factor of 3 to 5 [*Press et al., Numerical Recipes 3rd ed. (2007)*]. For further efficiency, pre-computed abscissas/weights correct to 25 decimal places for the orders = 2-20,32,64,96,100,128,256,512,1024 are used, otherwise abscissas/weights are computed on the fly.
+Newton's method is used to compute the abscissas, which are the roots of an N<sup>th</sup> order Legendre polynomial. Although alternative methods exist, direct root finding is typically faster by a factor of 3 to 5 [*Press et al., Numerical Recipes 3rd ed. (2007)*]. For further efficiency, pre-computed abscissas/weights correct to 25 decimal places for the orders = 2-20,32,64,96,100,128,256,512,1024 are used, otherwise abscissas/weights are computed on the fly.
 
 # License
 [![GPLv3](http://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/copyleft/gpl.html)
